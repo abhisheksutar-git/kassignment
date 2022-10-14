@@ -1,0 +1,293 @@
+/* Universal Styling  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+
+/* Header Section  */
+/* Menu Bar  */
+
+.headerMainEdits {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.logoEdits {
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+        
+}
+
+.rightSection {
+    display: flex;
+    justify-content: right;
+}
+
+.rightSection a {
+    font-weight: bold;
+}
+
+.menuTitle {
+    margin-left: 20px;
+}
+
+
+/* Slider Section  */
+
+.sliderImage {
+    height: 500px;
+    width: 100%;
+    background-size: auto;
+}
+
+
+
+/* Right Form Section  */
+
+
+.submissionForm {
+    margin-top: -450px;
+}
+.form-box {
+    height: 550px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+
+.firstForm {
+    margin-bottom: 160px;
+}
+
+.secondFormImage {
+    width: 180px;
+}
+
+.formContent {
+    text-align: left;
+}
+
+.showFirstForm {
+    display: block;
+}
+
+.hideFirstForm {
+    display: none;
+}
+
+.hideSecondForm {
+    display: none;
+
+}
+
+.showSecondForm {
+    display: block;
+}
+
+
+.buttonStyle {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between ;
+    
+}
+
+
+.submitFromButton {
+    background-color: rgb(36, 35, 35);
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    border-style: none;
+
+}
+.previousButton {
+    text-decoration: none;
+    margin-top: 20px;
+    
+    
+}
+
+.formSpaceButton {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 70px;
+}
+
+
+.hideSubmitButton {
+    display: none;
+}
+
+.showSubmitButton {
+    display: block;
+}
+
+.showNextButton {
+    display: block;
+}
+
+.hideNextButton {
+    display: none;
+}
+
+.hidepreviousButton {
+    display: none;
+}
+
+.showpreviousButton {
+    display: block;
+}
+
+
+.inputBackground {
+    background-color: rgba(230, 230, 230, 0.911);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.inputContainers {
+    padding-top: 10px;
+}
+
+.formHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.formHeading h5 {
+    font-weight: bolder ;
+}
+
+.styleNext {
+    border: 1px solid ;
+    padding: 10px 35px;
+    border-radius: 5px;
+    
+    border-color:#1ccec5;
+    border-width:1px;
+    background-color:transparent;
+    color: #1ccec5;
+}
+
+/* Discounting Invoice Section  */
+
+.invoiceDiscountingSection {
+    padding-left: 120px;
+    padding-right:120px;
+    width: 100%;
+    height: 750px;
+    padding-top: 100px;
+    
+    
+}
+
+.kredxNameColor {
+    color: rgb(5, 101, 114);
+}
+
+.invoiceSubsction {
+    padding-top: 30px;
+    
+}
+
+.invoiceSubsction h5 {
+    font-weight: bolder;
+    padding-top: 15px;
+    
+}
+
+.secondSubSection {
+    padding-top: 50px;
+}
+
+
+/* helping business Owner Section */
+
+
+.helpingbusinessOwnerSection {
+    
+    padding-left: 120px;
+    padding-right:110px;
+    width: 100%;
+    height: 500px;
+    padding-top: 80px;
+    background-color: black;
+    color: white;
+}
+
+.headingEdit {
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: lighter;
+    font-weight: lighter;
+}
+.business-subTab {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.business-subTab h2 {
+    font-weight: lighter;
+    margin: 0px;
+}
+.business-subTab p {
+    font-size: 18px;
+    color: rgb(3, 126, 126);
+}
+
+/* Contact Section  */
+
+.contact-section {
+    width: 100%;
+    height: 300px;
+    padding-top: 150px;
+    padding-left: 120px;
+}
+
+.contact-section h1 {
+    font-weight: bolder;
+}
+
+.contactusSecondSubSection {
+    margin-left: -100px;
+}
+
+
+/* Footer Section  */
+
+.footerSection {
+    height: 120px;
+    background-color: black;
+    padding-top: 50px;
+    width: 100%;
+    color: white;
+}
+
+.footerImage {
+    width: 150px;
+}
+
+.footerSpaceBetweenLogo {
+    gap: 600px;
+}
+
+
+
+
+
+
+

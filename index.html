@@ -1,0 +1,335 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+        <!-- Header Section ( Menu Bar ) -->
+        <header>
+                <div>
+                    <nav class="navbar navbar-expand-lg headerMainEdits">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#"> <img class="logoEdits" src="Images\sticky-logo.svg" alt=""> </a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse rightSection " id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                              <a class="nav-link menuTitle " href="#">Menu 1</a>
+                              <a class="nav-link menuTitle " href="#">Menu 2</a>
+                              <a class="nav-link menuTitle  ">Menu 3</a>
+                              <a class="nav-link menuTitle  ">Menu 4</a>
+                              <a class="nav-link menuTitle  ">Menu 5</a>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+        </header>
+
+        <!-- Slider Image  -->
+        <section>
+                <div class="secondSection" > 
+                    <img class="sliderImage" src="Images\1.png"  alt="slider image">
+
+                </div>
+        </section>
+
+
+        <!-- Right Section Submission From  -->
+        <section>
+            <div class="submissionForm" >
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    Column
+                  </div>
+                  <div class="col">
+                        <div class="form-box">
+                              <div class="formSpaceButton" >
+                                    <div>
+                                      <!-- First Step Form  -->
+                                      <div class="firstForm showFirstForm" id="firstFormId">
+                                            <div class="formHeading" >
+                                              <h5>Lorem Ipsum is Simply dummy </h5>
+                                              <p>text of printing and scripting industry </p>
+                                          </div>
+                                      
+                                          <div class="inputBackground">
+                                            <select class="form-select" aria-label=" select example" >
+                                              <option selected> Industry Name /option>
+                                              <option value="1">One</option>
+                                              <option value="2">Two</option>
+                                              <option value="3">Three</option>
+                                            </select>
+
+                                            <div class="row inputContainers">
+                                              <div class="col">
+                                                <input type="text" class="form-control" placeholder="Invice Value " aria-label="First name">
+                                              </div>
+                                              <div class="col">
+                                                <input type="text" class="form-control" placeholder="Tenure" aria-label="Last name">
+                                              </div>
+                                            </div>
+                                        
+                                        </div>
+                                      </div>
+
+                                      <!-- Second Step Form  -->
+                                      <div  class="secondForm hideSecondForm" id="secondForm" >
+                                          <div>
+                                            <div>
+                                              <img class="secondFormImage" src="Images\sucess.png" alt="success">
+                                            </div>
+                                            <div class="formContent" >
+                                              <div class="mb-3">
+                                              
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name of The Industry ">
+                                              </div>
+
+                                              <div class="mb-3">
+                                              
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name of The Individual ">
+                                              </div>
+
+                                              <div class="mb-3">
+                                              
+                                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                                              </div>
+
+                                              <div class="mb-3">
+                                                
+                                                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number ">
+                                              </div>
+                                              
+                                            </div>
+                                          </div>
+                                      </div>
+
+
+                                    </div>
+                                    <div class="buttonStyle">
+                                        <div>
+                                          <a  class="previousButton hidepreviousButton" id="previousButton" onclick="onclicprevious()" >  Previous </a>
+                                        </div>
+                                        <div  style="float: right ;" >
+                                          <button  class="styleNext showNextButton" id="nextButton" onclick="onClickChangeNextButton()" >Next</button>
+                                          <button  class="submitFromButton hideSubmitButton" id="submmitButton" onclick="onClickChangesubmitButton()" >Submit</button>
+                                        </div> 
+                                    </div>
+                                  
+                              </div>
+                        </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+        </section>
+
+
+        <!-- Invoice Discouting Section  -->
+        <section>
+            <div class="invoiceDiscountingSection" >
+                <div class="invoiceDiscountingSection-innerSection" >
+                    <h1 >Why <span class="kredxNameColor">KredX </span>  For <br>  Invoice Discounting ?</h1>
+                    <div class="invoiceSubsction" >
+                        <div class="container text-left">
+                            <div class="row">
+                              <div class="col">
+                                <div>
+                                    <img src="Images\invoice1.svg" alt="invoceOne">
+                                    <h5>Quick Verification and <br>Cash Flow</h5>
+                                    <p>Verify your business instantly on the <br>KredX platform and get funds in 24-72 Hours*</p>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div>
+                                    <img src="Images\invoice2.svg" alt="invoceOne">
+                                    <h5>Risk-free Assets </h5>
+                                    <p> Get Cash against your companys <br> unpaid invoices.No need to pledge any assets </p>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div>
+                                    <img src="Images\invoice3.svg" alt="invoceOne">
+                                    <h5>Avoide New Debt </h5>
+                                    <p>Grow your business without <br> impacting your balance sheet   </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="container secondSubSection text-left">
+                            <div class="row">
+                              <div class="col">
+                                <div>
+                                    <img src="Images\invoice4.svg" alt="invoceOne">
+                                    <h5> Real time Updates </h5>
+                                    <p> Track your invoices status on the go  <br> though KredX self-serve module</p>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div>
+                                    <img src="Images\invoice5.svg" alt="invoceOne">
+                                    <h5>Quick Verification and <br>Cash Flow</h5>
+                                    <p>Verify your business instantly on the <br>KredX platform and get funds in 24-72 Hours*</p>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div>
+                                    <img src="Images\invoice6.svg" alt="invoceOne">
+                                    <h5>Paper Process </h5>
+                                    <p> Upload your documents and invoices  <br> easily on the KredX platform</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Fourth Section Helping Business Owner Section  -->
+        <section>
+            <div class="helpingbusinessOwnerSection" >
+                    <div class="businees-Innersection" >
+                        <h5 class="headingEdit" >HELPING BUSINESS OWNERS SINCE 2015</h5>
+                        <div>
+                            <div class="container text-center">
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="business-subTab" >
+                                        <h2>1 Milion </h2>
+                                        <p>Invices Discounted</p>
+                                        <hr>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="business-subTab" >
+                                        <h2> $4 Billion  </h2>
+                                        <p>  Transection Value Processsed </p>
+                                        <hr>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="business-subTab" >
+                                        <h2> 2 Million </h2>
+                                        <p> Transection Processed till Date </p>
+                                        <hr>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div>
+                            <div class="container text-center">
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="business-subTab" >
+                                        <h2> 23,000+ </h2>
+                                        <p> Business Helped </p>
+                                        <hr>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="business-subTab" >
+                                        <h2> 70,000+ </h2>
+                                        <p> New & Returning Investors </p>
+                                        <hr>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="business-subTab" >
+                                        <h2> 225+ </h2>
+                                        <p> Corporates on KredX platform</p>
+                                        <hr>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        
+                    </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Us Section  -->
+        <section>
+            <div class="contact-section" >
+                <div>
+                    <div>
+                        <h1>Contact Us</h1>
+                    </div>
+                    <div>
+                        <div class="contactusSecondSubSection">
+                            <div class="container ">
+                                <div class="row">
+                                  <div class="col">
+                                    <p>INDIA</p>
+                                    <h5 style="margin-top: -10px;"  >1800 419 4919</h5>
+                                  </div>
+                                  <div class="col">
+                                    <div class="col">
+                                        <p>OUTSIDE INDIA </p>
+                                        <h5 style="margin-top: -10px;"  > +91-8061799200</h5>
+                                      </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="col">
+                                        <p>GLOBAL EMAIL </p>
+                                        <h5 style="margin-top: -10px;"  >info@Kredx.com</h5>
+                                      </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="col">
+                                        <p>FOR MEDIA ENQUIRIES </p>
+                                        <h5 style="margin-top: -10px;"  > pr@Kredx.com</h5>
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section>
+            <div class="footerSection">
+                <div class="example-container">
+                    <div class="example-row">
+                        <div class="container  ">
+                            <div class="row footerSpaceBetweenLogo">
+                              <div class="col">
+                                <img  class="footerImage"  src="Images\sap-footer-logo.svg" alt="sap-logo">
+                              </div>
+                              <div class="col">
+                                @22 Minion Ventures Pvt Ltd 
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
